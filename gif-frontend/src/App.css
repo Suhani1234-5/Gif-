@@ -1,5 +1,11 @@
 @import "tailwindcss";
 
+body {
+  background-color: #0a0f2b; /* Dark bluish background */
+  color: #ffffff; /* Optional: text color to contrast the background */
+  min-height: 100vh;
+}
+
 #root {
   max-width: 1280px;
   margin: 0 auto;
@@ -7,6 +13,7 @@
   text-align: center;
 }
 
+/* Existing styles */
 .logo {
   height: 6em;
   padding: 1.5em;
