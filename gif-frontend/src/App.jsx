@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Search, Heart, Smile, Zap, Coffee, Star, ThumbsUp, PartyPopper, Camera, Sparkles } from 'lucide-react';
 
-const API_BASE_URL = 'http://localhost:8000';
+const API_BASE_URL = 'https://gif-1-lrxn.onrender.com';
 
 const GifGenerator = () => {
   const [searchTerm, setSearchTerm] = useState('');
